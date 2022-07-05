@@ -11,7 +11,7 @@ There are two basic setup options:
 You'll need a Debian 11 computer and a Simtrace2 board (available [here](https://shop.sysmocom.de/SIMtrace2-Hardware-Kit/simtrace2-kit)).
 #### Setup
 From the bash shell in the Debian computer, perform the following steps.
-1. `wget https://github.com/jdabbs003-kore/st2-setup/blob/main/setup?raw=true`
+1. `wget -O ./setup https://github.com/jdabbs003-kore/st2-setup/blob/main/setup?raw=true`
 1. `chmod 777 setup`
 1. `sudo ./setup`
 1. `sudo apt-get wireshark`
@@ -32,7 +32,7 @@ simtrace2-sniff will echo a log to the screen and also send packets to wireshark
 You'll need a Debian 11 computer, a Windows computer, and a Simtrace2 board (available [here](https://shop.sysmocom.de/SIMtrace2-Hardware-Kit/simtrace2-kit)).
 #### Debian Setup
 From the bash shell in the Debian computer, perform the following steps.
-1. `wget https://github.com/jdabbs003-kore/st2-setup/blob/main/setup?raw=true`
+1. `wget -O ./setup https://github.com/jdabbs003-kore/st2-setup/blob/main/setup?raw=true`
 1. `chmod 777 setup`
 1. `sudo ./setup`
 
