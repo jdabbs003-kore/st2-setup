@@ -27,7 +27,8 @@ filter: (udp.dstport==4729)
 
 1. Power on and setup the DUT.
 
-simtrace2-sniff will echo a log to the screen and also send packets to wireshark.
+simtrace2-sniff will begin echoing a SIM activity log to the terminal window and also send packets to
+the local wireshark instance.
 ### Setup Option 2
 You'll need a Debian 11 computer, a Windows computer, and a Simtrace2 board (available [here](https://shop.sysmocom.de/SIMtrace2-Hardware-Kit/simtrace2-kit)).
 #### Debian Setup
@@ -49,4 +50,5 @@ filter: (udp.dstport==4729)
 
 1. Power on and setup the DUT.
 
-simtrace2-sniff will echo a log to terminal screen and also send packets to wireshark on the Windows computer.
+simtrace2-sniff will begin echoing a SIM activity log to the terminal window and also send packets to
+the wireshark instance instance on the remote computer.
