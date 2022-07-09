@@ -20,8 +20,8 @@ From the bash shell in the Debian computer, perform the following steps.
 1. Setup the hardware -- the DUT, the Simtrace2 board, and the SIM, and plug
 the Simtrace2 USB port into the Debian computer. Leave the DUT powered
 off.
-1. Launch wireshark from the Debian UI, and set up the following display
-filter: (udp.dstport==4729)
+1. Launch wireshark from the Debian UI, and set up the following capture
+filter: `udp port 4729`
 1. Launch the Simtrace2 sniffer as follows from the bash shell, as follows:
 `simtrace2-sniff`
 
@@ -43,8 +43,8 @@ Install wireshark from [here](https://www.wireshark.org/).
 1. Setup the hardware -- the DUT, the Simtrace2 board, and the SIM, and plug
 the Simtrace2 USB port into the Debian computer. Leave the DUT powered
 off.
-1. Launch wireshark on the windows computer, and set up the following display
-filter: (udp.dstport==4729)
+1. Launch wireshark on the windows computer, and set up the following capture
+filter: `udp port 4729`
 1. Launch the Simtrace2 sniffer as follows from the bash shell, as follows:
 `simtrace2-sniff -i <windows ip address>`
 
